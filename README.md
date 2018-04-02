@@ -7,22 +7,40 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+一些常用的UIButton,UILabel,UIColor,UIView等扩展类,方便快速开发.
+
+- 比如快速创建btn
+
+```
+    UIButton *btn = [UIButton createButtonTitleColor:[UIColor colorWithHexString:@"2E3D4A"]
+                                            fontSize:15
+                                        cornerRadius:5
+                                         borderWidth:1];
+```
+
+- 快速创建lab
+
+```
+    UILabel *lab = [UILabel createLabelColor:[UIColor redColor] FontSize:15];
+    lab.text = @"MccRee";
+
+```
 
 ## Requirements
 
+无
+
 ## Installation
 
-MccReeKit is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
 
-```ruby
+
+```
 pod 'MccReeKit'
 ```
 
 ## Author
 
-MQL9011, maqianli@ysten.com
+[MccRee](http://cocomccree.cn/)
 
 ## License
 

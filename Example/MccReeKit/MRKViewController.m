@@ -23,6 +23,13 @@
     lab.text = @"MccRee";
     lab.frame = CGRectMake(100, 100, 100, 100);
     [self.view addSubview:lab];
+    
+    UIButton *btn = [UIButton createButtonTitleColor:[UIColor colorWithHexString:@"2E3D4A"]
+                                            fontSize:15
+                                        cornerRadius:5
+                                         borderWidth:1];
+    [btn setTitle:@"按钮" forState:UIControlStateNormal];
+    [self.view addSubview:btn];
 }
 
 - (void)didReceiveMemoryWarning
