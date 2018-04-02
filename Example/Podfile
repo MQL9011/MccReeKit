@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MccReeKit_Example' do
+  pod 'MccReeKit', :path => '../'
+
+  target 'MccReeKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

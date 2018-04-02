@@ -1,0 +1,6 @@
+framework module MccReeKit {
+  umbrella header "MccReeKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

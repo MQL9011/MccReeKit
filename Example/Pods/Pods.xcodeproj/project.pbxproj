@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09D48E3AE33F18BD4A6B9893A8A3D2EE /* MccReeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFF14DD4DF04F2E7489FE0018654064 /* MccReeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		188E44ADFB8FB1BB5D980BEB35790E10 /* UIViewController+MRK.m in Sources */ = {isa = PBXBuildFile; fileRef = B091A6273E707F3E70FB74861DB3DE5A /* UIViewController+MRK.m */; };
+		1F656B0A65D1AB9126281810F1B9770E /* UIButton+MRK.m in Sources */ = {isa = PBXBuildFile; fileRef = A112F24310FA54721D887D5DC9F499E2 /* UIButton+MRK.m */; };
+		22AEA65EA099A85154D4DC81FF06A069 /* UIColor+MRK.m in Sources */ = {isa = PBXBuildFile; fileRef = BA825AF578957589A272117DA3EEE333 /* UIColor+MRK.m */; };
+		32E4BE27D85193EB4FE5B1AE013B280A /* MccReeToolClass.h in Headers */ = {isa = PBXBuildFile; fileRef = E6D61A34533C099847E3E312BA99FD94 /* MccReeToolClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37585851F76BB75BC9A8846864953DA0 /* MccReeToolClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B44490CA31C1C994DB09BFA9C68C26 /* MccReeToolClass.m */; };
+		49FB671D4547D0EC91C0F8999B494A9A /* UILabel+MRK.m in Sources */ = {isa = PBXBuildFile; fileRef = 72438DA631FDA837E0AB6E6540AFF376 /* UILabel+MRK.m */; };
+		5357C02A00DC866EA93B84BC882AC7D9 /* UIColor+MRK.h in Headers */ = {isa = PBXBuildFile; fileRef = A436CAC2A0D7ED8E447A202ADE6BA728 /* UIColor+MRK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85EC177374722602D01A6A65036F3413 /* Pods-MccReeKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8123970398D333F499510E503A7BD008 /* Pods-MccReeKit_Tests-dummy.m */; };
+		87384F6170B195941BE379D046AF4895 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		93A9D3281A8464DD58A3A7C5062A3D53 /* UIViewController+MRK.h in Headers */ = {isa = PBXBuildFile; fileRef = FBB84EA22BBD22EFFDDBE12AF322DF00 /* UIViewController+MRK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B21B42FAA86919A32126C0ACDDDDD8B1 /* MccReeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F5516E711D8C8050BC4C75704DD8F0 /* MccReeKit-dummy.m */; };
+		B327703E41BBCDB3B9D4E2FABAD150B8 /* Pods-MccReeKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0680703B2E45B005D19760BF3B6036BB /* Pods-MccReeKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC6505E73AE1A5DCBF1B4F6FF3693992 /* UIButton+MRK.h in Headers */ = {isa = PBXBuildFile; fileRef = 74AF78009318C4336427827AB1C13904 /* UIButton+MRK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1C003457396102B2B625A72FA7726F3 /* Pods-MccReeKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 150CADC1374399A1D0EE8E6258E8E5BE /* Pods-MccReeKit_Example-dummy.m */; };
+		C65CCE28B235C6611DB34394D1421955 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C9D96FF9BD0CC855E323D6C69F46F2E5 /* UILabel+MRK.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B569B8178EED9719CAB4E03EE003C89 /* UILabel+MRK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D46DCCCDF3305AF5E4BB4ECB86BEDDBF /* Pods-MccReeKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AA8D4CEB692C7547641C979E15C1915 /* Pods-MccReeKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD9A7D299FBE078E12E2B3CE6E14E1B7 /* MccReeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85B4FB0015C6714D1A080678E167D603 /* MccReeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E542EA5E7C1FE1AD9DFF5AAAA6DB4912 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F033E1D412CB39D05056A5F57FCEB3E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09524BBD4344E10F245CC4F81D989560;
+			remoteInfo = MccReeKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0680703B2E45B005D19760BF3B6036BB /* Pods-MccReeKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MccReeKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0ADF87B1366452300654DE6B0843C926 /* Pods-MccReeKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MccReeKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0B569B8178EED9719CAB4E03EE003C89 /* UILabel+MRK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+MRK.h"; sourceTree = "<group>"; };
+		143BC55261D523DA0D2F8F8A0F5823DC /* Pods_MccReeKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MccReeKit_Tests.framework; path = "Pods-MccReeKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		150CADC1374399A1D0EE8E6258E8E5BE /* Pods-MccReeKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MccReeKit_Example-dummy.m"; sourceTree = "<group>"; };
+		19043718BC4EB43047469180B6F73C8D /* Pods-MccReeKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MccReeKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1CE5CCA548A1F6A61B18D67857DF6213 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26F4E35F70499AE1C6BB1672DBFF56E3 /* Pods-MccReeKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MccReeKit_Tests.modulemap"; sourceTree = "<group>"; };
+		304E634DAB5662FB6AF1137BEC4583DF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		320EA5DFABA0048F71C427DEA6D01FC3 /* Pods-MccReeKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MccReeKit_Example.modulemap"; sourceTree = "<group>"; };
+		351F188541ADB08F968D0246DC1A1A02 /* MccReeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MccReeKit.framework; path = MccReeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43EECE637D35AA3D472CD69F2EC996D4 /* Pods-MccReeKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MccReeKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4A6145DB9AEB0C37B182949950821939 /* Pods-MccReeKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MccReeKit_Example-resources.sh"; sourceTree = "<group>"; };
+		5392C4CB5F837BB5D3E25DC30A1056B7 /* Pods-MccReeKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MccReeKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		58E9C58B48DAFEB0208BC895EAC2159B /* Pods-MccReeKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MccReeKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		59141D27A3CDEEAFBFB49DE3206F240E /* Pods-MccReeKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MccReeKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5B98811757C3BF6EC686F60DFCD926C1 /* Pods_MccReeKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MccReeKit_Example.framework; path = "Pods-MccReeKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		634228B3DB5475141D9CF5D7DC6C49DB /* MccReeKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MccReeKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		72438DA631FDA837E0AB6E6540AFF376 /* UILabel+MRK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+MRK.m"; sourceTree = "<group>"; };
+		74AF78009318C4336427827AB1C13904 /* UIButton+MRK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+MRK.h"; sourceTree = "<group>"; };
+		7566C73DC6D66BC121C43BE9DC1F0807 /* Pods-MccReeKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MccReeKit_Tests-resources.sh"; sourceTree = "<group>"; };
+		78087A361DD62A34F465FD6D1827DEC8 /* Pods-MccReeKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MccReeKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8123970398D333F499510E503A7BD008 /* Pods-MccReeKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MccReeKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		843D0C5EB68BCDF3C1CB2BE8B0A9BF44 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85B4FB0015C6714D1A080678E167D603 /* MccReeKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MccReeKit-umbrella.h"; sourceTree = "<group>"; };
+		8940D2E55812EDA17B5E1AA33F3DDCF2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AA8D4CEB692C7547641C979E15C1915 /* Pods-MccReeKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MccReeKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		923CE3C84223BA0E5B11603DCF776B1F /* MccReeKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MccReeKit.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93F5516E711D8C8050BC4C75704DD8F0 /* MccReeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MccReeKit-dummy.m"; sourceTree = "<group>"; };
+		A112F24310FA54721D887D5DC9F499E2 /* UIButton+MRK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MRK.m"; sourceTree = "<group>"; };
+		A436CAC2A0D7ED8E447A202ADE6BA728 /* UIColor+MRK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+MRK.h"; sourceTree = "<group>"; };
+		B091A6273E707F3E70FB74861DB3DE5A /* UIViewController+MRK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MRK.m"; sourceTree = "<group>"; };
+		BA825AF578957589A272117DA3EEE333 /* UIColor+MRK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MRK.m"; sourceTree = "<group>"; };
+		BDCD1C3B94574E1B1057486C6D4A22B1 /* MccReeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MccReeKit-prefix.pch"; sourceTree = "<group>"; };
+		BFCD18741BCED94B6E78A9EDB1CB4B12 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C6634E5CB1B85F7AF29EE1A5A42BE8DF /* MccReeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MccReeKit.modulemap; sourceTree = "<group>"; };
+		C9F5C22EC0CDB72512EE5025993E3224 /* Pods-MccReeKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MccReeKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DBFF14DD4DF04F2E7489FE0018654064 /* MccReeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MccReeKit.h; path = MccReeKit/Classes/MccReeKit.h; sourceTree = "<group>"; };
+		DDC44D4785E97019F6B9739356228C8D /* Pods-MccReeKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MccReeKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E6D61A34533C099847E3E312BA99FD94 /* MccReeToolClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MccReeToolClass.h; sourceTree = "<group>"; };
+		F3B44490CA31C1C994DB09BFA9C68C26 /* MccReeToolClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MccReeToolClass.m; sourceTree = "<group>"; };
+		FB9BEBE5D62EAA926AD94423645FE199 /* Pods-MccReeKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MccReeKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FBB84EA22BBD22EFFDDBE12AF322DF00 /* UIViewController+MRK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MRK.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61CEA4ACE659CA5EC4CB622F3D0C0B13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87384F6170B195941BE379D046AF4895 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C92B6D109294B04C93FBCC21B6EAC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E542EA5E7C1FE1AD9DFF5AAAA6DB4912 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B405D225F848B9B24DED71257083F473 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C65CCE28B235C6611DB34394D1421955 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23902CD2A3194D400BDDC9DB16EB9E73 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				304E634DAB5662FB6AF1137BEC4583DF /* LICENSE */,
+				634228B3DB5475141D9CF5D7DC6C49DB /* MccReeKit.podspec */,
+				BFCD18741BCED94B6E78A9EDB1CB4B12 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3203F349EEF92F2194ABC02D3C97FE64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				351F188541ADB08F968D0246DC1A1A02 /* MccReeKit.framework */,
+				5B98811757C3BF6EC686F60DFCD926C1 /* Pods_MccReeKit_Example.framework */,
+				143BC55261D523DA0D2F8F8A0F5823DC /* Pods_MccReeKit_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		425F0EFEF43C1DAF0DB3A29A8E7C7D5D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				792FCBA497DF26BE60E1CCE37DD3351E /* MccReeKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		62F5DE916A7BDDB1B27732C871924865 /* Pods-MccReeKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1CE5CCA548A1F6A61B18D67857DF6213 /* Info.plist */,
+				26F4E35F70499AE1C6BB1672DBFF56E3 /* Pods-MccReeKit_Tests.modulemap */,
+				C9F5C22EC0CDB72512EE5025993E3224 /* Pods-MccReeKit_Tests-acknowledgements.markdown */,
+				FB9BEBE5D62EAA926AD94423645FE199 /* Pods-MccReeKit_Tests-acknowledgements.plist */,
+				8123970398D333F499510E503A7BD008 /* Pods-MccReeKit_Tests-dummy.m */,
+				43EECE637D35AA3D472CD69F2EC996D4 /* Pods-MccReeKit_Tests-frameworks.sh */,
+				7566C73DC6D66BC121C43BE9DC1F0807 /* Pods-MccReeKit_Tests-resources.sh */,
+				0680703B2E45B005D19760BF3B6036BB /* Pods-MccReeKit_Tests-umbrella.h */,
+				5392C4CB5F837BB5D3E25DC30A1056B7 /* Pods-MccReeKit_Tests.debug.xcconfig */,
+				78087A361DD62A34F465FD6D1827DEC8 /* Pods-MccReeKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-MccReeKit_Tests";
+			path = "Target Support Files/Pods-MccReeKit_Tests";
+			sourceTree = "<group>";
+		};
+		68E0940DEAFD777C67C04632EA461BDB /* MccReeTools */ = {
+			isa = PBXGroup;
+			children = (
+				E6D61A34533C099847E3E312BA99FD94 /* MccReeToolClass.h */,
+				F3B44490CA31C1C994DB09BFA9C68C26 /* MccReeToolClass.m */,
+				74AF78009318C4336427827AB1C13904 /* UIButton+MRK.h */,
+				A112F24310FA54721D887D5DC9F499E2 /* UIButton+MRK.m */,
+				A436CAC2A0D7ED8E447A202ADE6BA728 /* UIColor+MRK.h */,
+				BA825AF578957589A272117DA3EEE333 /* UIColor+MRK.m */,
+				0B569B8178EED9719CAB4E03EE003C89 /* UILabel+MRK.h */,
+				72438DA631FDA837E0AB6E6540AFF376 /* UILabel+MRK.m */,
+				FBB84EA22BBD22EFFDDBE12AF322DF00 /* UIViewController+MRK.h */,
+				B091A6273E707F3E70FB74861DB3DE5A /* UIViewController+MRK.m */,
+			);
+			name = MccReeTools;
+			path = MccReeKit/Classes/MccReeTools;
+			sourceTree = "<group>";
+		};
+		792FCBA497DF26BE60E1CCE37DD3351E /* MccReeKit */ = {
+			isa = PBXGroup;
+			children = (
+				DBFF14DD4DF04F2E7489FE0018654064 /* MccReeKit.h */,
+				68E0940DEAFD777C67C04632EA461BDB /* MccReeTools */,
+				23902CD2A3194D400BDDC9DB16EB9E73 /* Pod */,
+				F99883CCDAE1A89E70C1CB81DDCE327F /* Support Files */,
+			);
+			name = MccReeKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7B327CA61F51DFA34772FDCBD062F9A7 /* Pods-MccReeKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8940D2E55812EDA17B5E1AA33F3DDCF2 /* Info.plist */,
+				320EA5DFABA0048F71C427DEA6D01FC3 /* Pods-MccReeKit_Example.modulemap */,
+				19043718BC4EB43047469180B6F73C8D /* Pods-MccReeKit_Example-acknowledgements.markdown */,
+				59141D27A3CDEEAFBFB49DE3206F240E /* Pods-MccReeKit_Example-acknowledgements.plist */,
+				150CADC1374399A1D0EE8E6258E8E5BE /* Pods-MccReeKit_Example-dummy.m */,
+				58E9C58B48DAFEB0208BC895EAC2159B /* Pods-MccReeKit_Example-frameworks.sh */,
+				4A6145DB9AEB0C37B182949950821939 /* Pods-MccReeKit_Example-resources.sh */,
+				8AA8D4CEB692C7547641C979E15C1915 /* Pods-MccReeKit_Example-umbrella.h */,
+				0ADF87B1366452300654DE6B0843C926 /* Pods-MccReeKit_Example.debug.xcconfig */,
+				DDC44D4785E97019F6B9739356228C8D /* Pods-MccReeKit_Example.release.xcconfig */,
+			);
+			name = "Pods-MccReeKit_Example";
+			path = "Target Support Files/Pods-MccReeKit_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				425F0EFEF43C1DAF0DB3A29A8E7C7D5D /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				3203F349EEF92F2194ABC02D3C97FE64 /* Products */,
+				A27B7761CF511CE138D30B9F00D0EA10 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A27B7761CF511CE138D30B9F00D0EA10 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B327CA61F51DFA34772FDCBD062F9A7 /* Pods-MccReeKit_Example */,
+				62F5DE916A7BDDB1B27732C871924865 /* Pods-MccReeKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F99883CCDAE1A89E70C1CB81DDCE327F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				843D0C5EB68BCDF3C1CB2BE8B0A9BF44 /* Info.plist */,
+				C6634E5CB1B85F7AF29EE1A5A42BE8DF /* MccReeKit.modulemap */,
+				923CE3C84223BA0E5B11603DCF776B1F /* MccReeKit.xcconfig */,
+				93F5516E711D8C8050BC4C75704DD8F0 /* MccReeKit-dummy.m */,
+				BDCD1C3B94574E1B1057486C6D4A22B1 /* MccReeKit-prefix.pch */,
+				85B4FB0015C6714D1A080678E167D603 /* MccReeKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MccReeKit";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0492FEAB191099664EFA47F579B58EFD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9A7D299FBE078E12E2B3CE6E14E1B7 /* MccReeKit-umbrella.h in Headers */,
+				09D48E3AE33F18BD4A6B9893A8A3D2EE /* MccReeKit.h in Headers */,
+				32E4BE27D85193EB4FE5B1AE013B280A /* MccReeToolClass.h in Headers */,
+				BC6505E73AE1A5DCBF1B4F6FF3693992 /* UIButton+MRK.h in Headers */,
+				5357C02A00DC866EA93B84BC882AC7D9 /* UIColor+MRK.h in Headers */,
+				C9D96FF9BD0CC855E323D6C69F46F2E5 /* UILabel+MRK.h in Headers */,
+				93A9D3281A8464DD58A3A7C5062A3D53 /* UIViewController+MRK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		898EAC5DEEFE4412C36AF26D69D61923 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B327703E41BBCDB3B9D4E2FABAD150B8 /* Pods-MccReeKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B243754FF7D5BA272CAC6AE8B50A1A2F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D46DCCCDF3305AF5E4BB4ECB86BEDDBF /* Pods-MccReeKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		09524BBD4344E10F245CC4F81D989560 /* MccReeKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C04942CE6C950D7DD3E063E172817C8 /* Build configuration list for PBXNativeTarget "MccReeKit" */;
+			buildPhases = (
+				D650DD03AC4156D7E250EC1A122E386C /* Sources */,
+				61CEA4ACE659CA5EC4CB622F3D0C0B13 /* Frameworks */,
+				0492FEAB191099664EFA47F579B58EFD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MccReeKit;
+			productName = MccReeKit;
+			productReference = 351F188541ADB08F968D0246DC1A1A02 /* MccReeKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5DE8DDE018D102BDAAD8D19C5C650D5A /* Pods-MccReeKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E809EE289FFA0D0EA644EBC30CEA852 /* Build configuration list for PBXNativeTarget "Pods-MccReeKit_Example" */;
+			buildPhases = (
+				B7596E1C675D8B752E7E4A2872D78BB9 /* Sources */,
+				B405D225F848B9B24DED71257083F473 /* Frameworks */,
+				B243754FF7D5BA272CAC6AE8B50A1A2F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				783293548D4F7BA09E55B638FE3B348D /* PBXTargetDependency */,
+			);
+			name = "Pods-MccReeKit_Example";
+			productName = "Pods-MccReeKit_Example";
+			productReference = 5B98811757C3BF6EC686F60DFCD926C1 /* Pods_MccReeKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CF655EC640B15795B41AEBB4CAFEAECE /* Pods-MccReeKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 057E48A8B0143C6422AA7A83243C8E24 /* Build configuration list for PBXNativeTarget "Pods-MccReeKit_Tests" */;
+			buildPhases = (
+				BC8C1E0667B35B50936F3C0E81FDEF96 /* Sources */,
+				80C92B6D109294B04C93FBCC21B6EAC7 /* Frameworks */,
+				898EAC5DEEFE4412C36AF26D69D61923 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MccReeKit_Tests";
+			productName = "Pods-MccReeKit_Tests";
+			productReference = 143BC55261D523DA0D2F8F8A0F5823DC /* Pods_MccReeKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3203F349EEF92F2194ABC02D3C97FE64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09524BBD4344E10F245CC4F81D989560 /* MccReeKit */,
+				5DE8DDE018D102BDAAD8D19C5C650D5A /* Pods-MccReeKit_Example */,
+				CF655EC640B15795B41AEBB4CAFEAECE /* Pods-MccReeKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7596E1C675D8B752E7E4A2872D78BB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C003457396102B2B625A72FA7726F3 /* Pods-MccReeKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC8C1E0667B35B50936F3C0E81FDEF96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85EC177374722602D01A6A65036F3413 /* Pods-MccReeKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D650DD03AC4156D7E250EC1A122E386C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B21B42FAA86919A32126C0ACDDDDD8B1 /* MccReeKit-dummy.m in Sources */,
+				37585851F76BB75BC9A8846864953DA0 /* MccReeToolClass.m in Sources */,
+				1F656B0A65D1AB9126281810F1B9770E /* UIButton+MRK.m in Sources */,
+				22AEA65EA099A85154D4DC81FF06A069 /* UIColor+MRK.m in Sources */,
+				49FB671D4547D0EC91C0F8999B494A9A /* UILabel+MRK.m in Sources */,
+				188E44ADFB8FB1BB5D980BEB35790E10 /* UIViewController+MRK.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		783293548D4F7BA09E55B638FE3B348D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MccReeKit;
+			target = 09524BBD4344E10F245CC4F81D989560 /* MccReeKit */;
+			targetProxy = F033E1D412CB39D05056A5F57FCEB3E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05E1FD9D7E30C8625E594C563BCF3F1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78087A361DD62A34F465FD6D1827DEC8 /* Pods-MccReeKit_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MccReeKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MccReeKit_Tests/Pods-MccReeKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MccReeKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		58EED7D1351C8B5BAED058E9BEA88703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5392C4CB5F837BB5D3E25DC30A1056B7 /* Pods-MccReeKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MccReeKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MccReeKit_Tests/Pods-MccReeKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MccReeKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		701F7FBD3020DB05532CB3AE0A939F5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDC44D4785E97019F6B9739356228C8D /* Pods-MccReeKit_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MccReeKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MccReeKit_Example/Pods-MccReeKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MccReeKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9404CBA56111751D2C97842466AEFEA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ADF87B1366452300654DE6B0843C926 /* Pods-MccReeKit_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MccReeKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MccReeKit_Example/Pods-MccReeKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MccReeKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D33673E8E5E92F80415FE4B1C60154EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 923CE3C84223BA0E5B11603DCF776B1F /* MccReeKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MccReeKit/MccReeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MccReeKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MccReeKit/MccReeKit.modulemap";
+				PRODUCT_NAME = MccReeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E333D272BE63FE4B58E9E289D4704E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 923CE3C84223BA0E5B11603DCF776B1F /* MccReeKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MccReeKit/MccReeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MccReeKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MccReeKit/MccReeKit.modulemap";
+				PRODUCT_NAME = MccReeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		057E48A8B0143C6422AA7A83243C8E24 /* Build configuration list for PBXNativeTarget "Pods-MccReeKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58EED7D1351C8B5BAED058E9BEA88703 /* Debug */,
+				05E1FD9D7E30C8625E594C563BCF3F1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E809EE289FFA0D0EA644EBC30CEA852 /* Build configuration list for PBXNativeTarget "Pods-MccReeKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9404CBA56111751D2C97842466AEFEA4 /* Debug */,
+				701F7FBD3020DB05532CB3AE0A939F5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C04942CE6C950D7DD3E063E172817C8 /* Build configuration list for PBXNativeTarget "MccReeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E333D272BE63FE4B58E9E289D4704E57 /* Debug */,
+				D33673E8E5E92F80415FE4B1C60154EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

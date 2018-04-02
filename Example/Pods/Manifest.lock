@@ -1,0 +1,16 @@
+PODS:
+  - MccReeKit (0.1.0)
+
+DEPENDENCIES:
+  - MccReeKit (from `../`)
+
+EXTERNAL SOURCES:
+  MccReeKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MccReeKit: 8b7337c5bc8ba22367b67aed812bc7cb770c4118
+
+PODFILE CHECKSUM: 39302ab73c2dbabe5e955bc52d7ef9a2486bff6e
+
+COCOAPODS: 1.4.0
