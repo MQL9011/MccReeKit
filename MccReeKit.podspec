@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 MccReeKit集成了一些开发常用的扩展.
                        DESC
 
-  s.homepage         = 'https://github.com/MQL9011/MccReeKit'
+  s.homepage         = 'http://cocomccree.cn/'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'MQL9011' => '301063915@qq.com' }
