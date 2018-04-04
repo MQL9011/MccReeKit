@@ -8,6 +8,11 @@
 #import <UIKit/UIKit.h>
 
 @interface UIButton (MRK)
+//自定义按钮标题位置
+@property (nonatomic,assign) CGRect titleRect;
+//自定义按钮图片位置
+@property (nonatomic,assign) CGRect imageRect;
+
 
 /**
  创建按钮
@@ -16,4 +21,11 @@
                                     fontSize:(CGFloat)size
                                 cornerRadius:(CGFloat)radius
                                  borderWidth:(CGFloat)width;
+
+/**
+ 创建按钮,只有背景图
+ */
++ (UIButton *_Nullable)createButtonOnlyBackgroundImage:(UIImage *_Nullable)img;
+
+
 @end
