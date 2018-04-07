@@ -1,9 +1,9 @@
 {
   "name": "MccReeKit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "MccReeKit集成了开发常用的扩展.",
   "description": "MccReeKit集成了一些开发常用的扩展.",
-  "homepage": "https://github.com/MQL9011/MccReeKit",
+  "homepage": "http://cocomccree.cn/",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/MQL9011/MccReeKit.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"

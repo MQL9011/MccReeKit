@@ -20,7 +20,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     UILabel *lab = [UILabel createLabelColor:[UIColor redColor] FontSize:15];
-    lab.text = @"MccRee";
+    lab.text = @"MccReeLab";
     lab.frame = CGRectMake(100, 100, 100, 100);
     [self.view addSubview:lab];
     
