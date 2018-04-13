@@ -7,28 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		17F8572E9EA1D619AB173728762DF88B /* MRAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D1B78AAE6FD8156C9BB134F8EA409AF /* MRAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		20EF1CE9AF4C02874956AADFAFA39494 /* UIButton+MRK.m in Sources */ = {isa = PBXBuildFile; fileRef = FE84002EC051F531FF9D440CCFD0196A /* UIButton+MRK.m */; };
-		31311DBC4462793906958C5BF0BD2D71 /* UIColor+MRK.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E9A326D3D4F447E1EC906A5E8BB9BB /* UIColor+MRK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3663C97905E1215A74732C886DC1696E /* UIViewController+MRK.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A83A26A42F57664097372C2ACD65BDD /* UIViewController+MRK.m */; };
-		428C53D69CAEAA5E4660C1E417E3A5EB /* MccReeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EEABF1C57D23113264AD62A02FEF6F3 /* MccReeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46174D7A2F15159C3BF40448EACB7F88 /* MRAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4755A5F31D71BBC3E6BC474C1D011F80 /* MRAlertView.m */; };
-		4A753FAD70D2D2A671FF3C078E9F2C75 /* UIColor+MRK.m in Sources */ = {isa = PBXBuildFile; fileRef = 3055F498D52185105548AE7BC9DE98CD /* UIColor+MRK.m */; };
+		0894A4D37DE63499F3B9916898303AC5 /* CAGradientLayer+MRK.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E55E1D2688AA0E2244DA8AE3F107204 /* CAGradientLayer+MRK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D240D8B703083B405D40FC2DE585C5D /* MccReeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F914A6719906E76003EEB16DEB7C69B2 /* MccReeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AE36F1283CC89A2F085D6A9C1F67422 /* UIViewController+MRK.h in Headers */ = {isa = PBXBuildFile; fileRef = BDB9BD50FA7484FA59BBCCF520AF8BF8 /* UIViewController+MRK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28425B2B9A019C9861318B77DC5E20F0 /* UIColor+MRK.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E12C77A16463067C424BCE26FCE170E /* UIColor+MRK.m */; };
+		4D975A7F1E7DD8C5DF90CCA251F38E0F /* UIButton+MRK.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A3C035CE77451369845C3D729610817 /* UIButton+MRK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		504AC4C02B6B239B4F4848C72709DC96 /* MccReeToolClass.h in Headers */ = {isa = PBXBuildFile; fileRef = D8C23A7304B73FA9F3AF8445F30729E3 /* MccReeToolClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5295C32CAB02F4504C65E9AD8EFBB94C /* UINavigationBar+MRK.h in Headers */ = {isa = PBXBuildFile; fileRef = CC5E619CE4BC78E10DA52C9FE84A3EAE /* UINavigationBar+MRK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52AE437B1602F0A1F231364CB92F3BE0 /* MccReeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B13E28BCDD364A16A97F6A40B8D2C5C4 /* MccReeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		539395594BB6001F80A2B09D48D99412 /* UIImageView+MRK.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4C1EBADE7048B235E2355FFE58621E /* UIImageView+MRK.m */; };
+		55A348ADAF61B1DAD80D775048C44271 /* UIViewController+MRK.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9214DFC9E9A935551F04446AA2D78A /* UIViewController+MRK.m */; };
+		646B0DD92210E08F07CBF469500D7D5E /* UIImageView+MRK.h in Headers */ = {isa = PBXBuildFile; fileRef = EF795929F75BA45B3A1FF658F70CB82D /* UIImageView+MRK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		692004B5A546BCCEC6E1B5FBE30CA783 /* UILabel+MRK.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D1AE9153BE6DD827B21379014174B63 /* UILabel+MRK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		810016FB38A819DD2050030505636BB6 /* UILabel+MRK.m in Sources */ = {isa = PBXBuildFile; fileRef = 83083691E8967F6BACB0EC46AD61B554 /* UILabel+MRK.m */; };
 		85EC177374722602D01A6A65036F3413 /* Pods-MccReeKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8123970398D333F499510E503A7BD008 /* Pods-MccReeKit_Tests-dummy.m */; };
-		98B25B9452CF76BFCA64860EBD745268 /* UILabel+MRK.m in Sources */ = {isa = PBXBuildFile; fileRef = 0391CECD1EBA0B4078E306D80120D8A1 /* UILabel+MRK.m */; };
-		B0C665AEED9CEBB77E13E6B9B0654D40 /* UIButton+MRK.h in Headers */ = {isa = PBXBuildFile; fileRef = AD13FE8D6950C9313ECE75875FCEED4F /* UIButton+MRK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87700952BE239F86686135D2F89B5B59 /* CAGradientLayer+MRK.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5B2D8CBE6DB9210DBD2853E5D00E57 /* CAGradientLayer+MRK.m */; };
+		9A62ED0C13909135F9EF88A4A1ACE375 /* UIButton+MRK.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D64C7951192E8B89A99DCCEFD76ACF1 /* UIButton+MRK.m */; };
+		A1C959DB4921BCBFEF86052897C8694E /* MRAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE697265EE378F54A3899258FAD330D9 /* MRAlertView.m */; };
+		A20E61891DC4C609E381A82700E275D0 /* NSString+MRK.h in Headers */ = {isa = PBXBuildFile; fileRef = 60A4E3D7F87BD3073C11EBD28F5D2C29 /* NSString+MRK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFEA4EAE1FE49CC43FA77C08E88361E1 /* MRAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 419631F675377DDED8007482DB727BE8 /* MRAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B327703E41BBCDB3B9D4E2FABAD150B8 /* Pods-MccReeKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0680703B2E45B005D19760BF3B6036BB /* Pods-MccReeKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B5FD0C01E370B63383311414D8D98350 /* UILabel+MRK.h in Headers */ = {isa = PBXBuildFile; fileRef = D1B7260E3EF20931A3EB1DF42B8DB130 /* UILabel+MRK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF9AB36CB0FCD5456812CB3260575AEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B5F29391783A27057EE6E88007546F95 /* NSString+MRK.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D469CBA1F986AE756A7627B3F23D1C /* NSString+MRK.m */; };
 		C1C003457396102B2B625A72FA7726F3 /* Pods-MccReeKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 150CADC1374399A1D0EE8E6258E8E5BE /* Pods-MccReeKit_Example-dummy.m */; };
+		C3960B761EC49A92B40B3FCB9BC32DA2 /* MccReeToolClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB97BCC3D9A37266AF306204F3E623F /* MccReeToolClass.m */; };
+		C544D205BE2DCA117750E72339741B77 /* MccReeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 633F4697076BC4BCEC2250FD6EAD378F /* MccReeKit-dummy.m */; };
 		C65CCE28B235C6611DB34394D1421955 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		C7943A4F0143800B94D387F9BE5DED8F /* MccReeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C67061274F3318E16F792019714D62B /* MccReeKit-dummy.m */; };
+		CBCED3B938E9BE9D2FBE801BC9A7BA8E /* UIView+MRK.m in Sources */ = {isa = PBXBuildFile; fileRef = E5FC2C3D28D54A4009DBB8D0E6685245 /* UIView+MRK.m */; };
 		D46DCCCDF3305AF5E4BB4ECB86BEDDBF /* Pods-MccReeKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AA8D4CEB692C7547641C979E15C1915 /* Pods-MccReeKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D560BE2D1BCD2DCCC5AEFEF394E029F6 /* MccReeToolClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4697FE36BC7F8052DF9D5A24B56DF9EC /* MccReeToolClass.m */; };
-		D7F3E02CAB550A30A1F8F5E63534B4D6 /* UIViewController+MRK.h in Headers */ = {isa = PBXBuildFile; fileRef = 3186210DB762FFE51F500EB05D58AA62 /* UIViewController+MRK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9B07BC7F45FFB825F3FC2193ABF566D /* MccReeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 29824F99A105FCE8028F9B9932B45572 /* MccReeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE4D3FAB447F1AC347B9FA709D3EE7A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DEBB977FA6903A5E6EB4B5CB085176BC /* UINavigationBar+MRK.m in Sources */ = {isa = PBXBuildFile; fileRef = 465252351C749161E2CF76864A74ADD3 /* UINavigationBar+MRK.m */; };
 		E542EA5E7C1FE1AD9DFF5AAAA6DB4912 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		EF42AF3DF76A305CE8A6A315DF8F977C /* MccReeToolClass.h in Headers */ = {isa = PBXBuildFile; fileRef = A00B8BB8F8328F1A3D6F47689881DDB3 /* MccReeToolClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0F29516608266CE0532157482AA9C31 /* UIView+MRK.h in Headers */ = {isa = PBXBuildFile; fileRef = 9769E7C0C5418F14AE57C2E4D93866AC /* UIView+MRK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9A78E59483DC7EEC53ABC4AE4C5D6FF /* UIColor+MRK.h in Headers */ = {isa = PBXBuildFile; fileRef = A7021903E42A9826DB189FEE9B334E3C /* UIColor+MRK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,67 +46,77 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 169F6D07839E3FE90A95CDB7B6A9AEDC;
+			remoteGlobalIDString = 2EDADC652BD8F942B050FECFC5D083A1;
 			remoteInfo = MccReeKit;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0391CECD1EBA0B4078E306D80120D8A1 /* UILabel+MRK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+MRK.m"; sourceTree = "<group>"; };
 		0680703B2E45B005D19760BF3B6036BB /* Pods-MccReeKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MccReeKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		0A83A26A42F57664097372C2ACD65BDD /* UIViewController+MRK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MRK.m"; sourceTree = "<group>"; };
+		07555092E45943A06895CA25F2D2AD26 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0ADF87B1366452300654DE6B0843C926 /* Pods-MccReeKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MccReeKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		0EEABF1C57D23113264AD62A02FEF6F3 /* MccReeKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MccReeKit-umbrella.h"; sourceTree = "<group>"; };
+		0E4C1EBADE7048B235E2355FFE58621E /* UIImageView+MRK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+MRK.m"; sourceTree = "<group>"; };
+		0EB97BCC3D9A37266AF306204F3E623F /* MccReeToolClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MccReeToolClass.m; sourceTree = "<group>"; };
 		143BC55261D523DA0D2F8F8A0F5823DC /* Pods_MccReeKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MccReeKit_Tests.framework; path = "Pods-MccReeKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		150CADC1374399A1D0EE8E6258E8E5BE /* Pods-MccReeKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MccReeKit_Example-dummy.m"; sourceTree = "<group>"; };
 		19043718BC4EB43047469180B6F73C8D /* Pods-MccReeKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MccReeKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1CE5CCA548A1F6A61B18D67857DF6213 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D1AE9153BE6DD827B21379014174B63 /* UILabel+MRK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+MRK.h"; sourceTree = "<group>"; };
 		26F4E35F70499AE1C6BB1672DBFF56E3 /* Pods-MccReeKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MccReeKit_Tests.modulemap"; sourceTree = "<group>"; };
-		29824F99A105FCE8028F9B9932B45572 /* MccReeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MccReeKit.h; path = MccReeKit/Classes/MccReeKit.h; sourceTree = "<group>"; };
-		3055F498D52185105548AE7BC9DE98CD /* UIColor+MRK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MRK.m"; sourceTree = "<group>"; };
-		3186210DB762FFE51F500EB05D58AA62 /* UIViewController+MRK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MRK.h"; sourceTree = "<group>"; };
 		320EA5DFABA0048F71C427DEA6D01FC3 /* Pods-MccReeKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MccReeKit_Example.modulemap"; sourceTree = "<group>"; };
-		33D804728848C7E19A8F560F5CF17788 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		351F188541ADB08F968D0246DC1A1A02 /* MccReeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MccReeKit.framework; path = MccReeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		419631F675377DDED8007482DB727BE8 /* MRAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MRAlertView.h; sourceTree = "<group>"; };
 		43EECE637D35AA3D472CD69F2EC996D4 /* Pods-MccReeKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MccReeKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		4697FE36BC7F8052DF9D5A24B56DF9EC /* MccReeToolClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MccReeToolClass.m; sourceTree = "<group>"; };
-		4755A5F31D71BBC3E6BC474C1D011F80 /* MRAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MRAlertView.m; sourceTree = "<group>"; };
+		465252351C749161E2CF76864A74ADD3 /* UINavigationBar+MRK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+MRK.m"; sourceTree = "<group>"; };
 		4A6145DB9AEB0C37B182949950821939 /* Pods-MccReeKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MccReeKit_Example-resources.sh"; sourceTree = "<group>"; };
-		4C67061274F3318E16F792019714D62B /* MccReeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MccReeKit-dummy.m"; sourceTree = "<group>"; };
-		52CAA65435154C7337823D78CF364DAA /* MccReeKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MccReeKit.xcconfig; sourceTree = "<group>"; };
 		5392C4CB5F837BB5D3E25DC30A1056B7 /* Pods-MccReeKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MccReeKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		58E9C58B48DAFEB0208BC895EAC2159B /* Pods-MccReeKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MccReeKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		59141D27A3CDEEAFBFB49DE3206F240E /* Pods-MccReeKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MccReeKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5B98811757C3BF6EC686F60DFCD926C1 /* Pods_MccReeKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MccReeKit_Example.framework; path = "Pods-MccReeKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C255354174FE3CFFFFF15C5505C5243 /* MccReeKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MccReeKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5E55E1D2688AA0E2244DA8AE3F107204 /* CAGradientLayer+MRK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CAGradientLayer+MRK.h"; sourceTree = "<group>"; };
+		60A4E3D7F87BD3073C11EBD28F5D2C29 /* NSString+MRK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+MRK.h"; sourceTree = "<group>"; };
+		633F4697076BC4BCEC2250FD6EAD378F /* MccReeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MccReeKit-dummy.m"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		68E9A326D3D4F447E1EC906A5E8BB9BB /* UIColor+MRK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+MRK.h"; sourceTree = "<group>"; };
-		6FDE3AE2B0A001397F33F333DC341B5E /* MccReeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MccReeKit-prefix.pch"; sourceTree = "<group>"; };
 		7566C73DC6D66BC121C43BE9DC1F0807 /* Pods-MccReeKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MccReeKit_Tests-resources.sh"; sourceTree = "<group>"; };
 		78087A361DD62A34F465FD6D1827DEC8 /* Pods-MccReeKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MccReeKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7E12C77A16463067C424BCE26FCE170E /* UIColor+MRK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MRK.m"; sourceTree = "<group>"; };
 		8123970398D333F499510E503A7BD008 /* Pods-MccReeKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MccReeKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		83083691E8967F6BACB0EC46AD61B554 /* UILabel+MRK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+MRK.m"; sourceTree = "<group>"; };
 		8940D2E55812EDA17B5E1AA33F3DDCF2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AA8D4CEB692C7547641C979E15C1915 /* Pods-MccReeKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MccReeKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		8D1B78AAE6FD8156C9BB134F8EA409AF /* MRAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MRAlertView.h; sourceTree = "<group>"; };
+		8D64C7951192E8B89A99DCCEFD76ACF1 /* UIButton+MRK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MRK.m"; sourceTree = "<group>"; };
+		8EEA6F142158E6C24796900CB8EBC5C1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A00B8BB8F8328F1A3D6F47689881DDB3 /* MccReeToolClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MccReeToolClass.h; sourceTree = "<group>"; };
-		AD13FE8D6950C9313ECE75875FCEED4F /* UIButton+MRK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+MRK.h"; sourceTree = "<group>"; };
-		B9B60E96F1B1ADA8AB9AFE7B78A6A3E4 /* MccReeKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MccReeKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9769E7C0C5418F14AE57C2E4D93866AC /* UIView+MRK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+MRK.h"; sourceTree = "<group>"; };
+		9A3C035CE77451369845C3D729610817 /* UIButton+MRK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+MRK.h"; sourceTree = "<group>"; };
+		9E73ED6A6268065AABCDA97701F52E28 /* MccReeKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MccReeKit.xcconfig; sourceTree = "<group>"; };
+		A7021903E42A9826DB189FEE9B334E3C /* UIColor+MRK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+MRK.h"; sourceTree = "<group>"; };
+		AE697265EE378F54A3899258FAD330D9 /* MRAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MRAlertView.m; sourceTree = "<group>"; };
+		AE9214DFC9E9A935551F04446AA2D78A /* UIViewController+MRK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MRK.m"; sourceTree = "<group>"; };
+		B13E28BCDD364A16A97F6A40B8D2C5C4 /* MccReeKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MccReeKit-umbrella.h"; sourceTree = "<group>"; };
+		BDB9BD50FA7484FA59BBCCF520AF8BF8 /* UIViewController+MRK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MRK.h"; sourceTree = "<group>"; };
+		C1D469CBA1F986AE756A7627B3F23D1C /* NSString+MRK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+MRK.m"; sourceTree = "<group>"; };
+		C252F6E051B22CAF8A5FAAB94AB201F0 /* MccReeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MccReeKit-prefix.pch"; sourceTree = "<group>"; };
 		C9F5C22EC0CDB72512EE5025993E3224 /* Pods-MccReeKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MccReeKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CB4CDAF364FF23CB14E0977B04D04019 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		CD2B62AC166BD64563B40F9EA95D49C7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		D1B7260E3EF20931A3EB1DF42B8DB130 /* UILabel+MRK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+MRK.h"; sourceTree = "<group>"; };
+		CC5E619CE4BC78E10DA52C9FE84A3EAE /* UINavigationBar+MRK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+MRK.h"; sourceTree = "<group>"; };
+		D8C23A7304B73FA9F3AF8445F30729E3 /* MccReeToolClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MccReeToolClass.h; sourceTree = "<group>"; };
+		D9E9E56AE87F9E5144F1048CEB0C281F /* MccReeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MccReeKit.modulemap; sourceTree = "<group>"; };
 		DDC44D4785E97019F6B9739356228C8D /* Pods-MccReeKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MccReeKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		ECF3E101D67C87868B3FAC2EA4446F1B /* MccReeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MccReeKit.modulemap; sourceTree = "<group>"; };
+		E5FC2C3D28D54A4009DBB8D0E6685245 /* UIView+MRK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+MRK.m"; sourceTree = "<group>"; };
+		EF795929F75BA45B3A1FF658F70CB82D /* UIImageView+MRK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+MRK.h"; sourceTree = "<group>"; };
+		F05B0F7A1D39129C6768A8EBF37869E9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F914A6719906E76003EEB16DEB7C69B2 /* MccReeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MccReeKit.h; path = MccReeKit/Classes/MccReeKit.h; sourceTree = "<group>"; };
+		FA5B2D8CBE6DB9210DBD2853E5D00E57 /* CAGradientLayer+MRK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CAGradientLayer+MRK.m"; sourceTree = "<group>"; };
 		FB9BEBE5D62EAA926AD94423645FE199 /* Pods-MccReeKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MccReeKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		FE84002EC051F531FF9D440CCFD0196A /* UIButton+MRK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MRK.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		457453FA9A1C89B0BA46B274843D4675 /* Frameworks */ = {
+		67041AFAFFE74360883A72571B443178 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF9AB36CB0FCD5456812CB3260575AEE /* Foundation.framework in Frameworks */,
+				DE4D3FAB447F1AC347B9FA709D3EE7A5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,49 +149,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		32151C6BA8F7F3C97D667581B627C9D9 /* MccReeTools */ = {
+		489CD7D63E802C42C4FB01439DDD6042 /* MccReeAlertView */ = {
 			isa = PBXGroup;
 			children = (
-				A00B8BB8F8328F1A3D6F47689881DDB3 /* MccReeToolClass.h */,
-				4697FE36BC7F8052DF9D5A24B56DF9EC /* MccReeToolClass.m */,
-				AD13FE8D6950C9313ECE75875FCEED4F /* UIButton+MRK.h */,
-				FE84002EC051F531FF9D440CCFD0196A /* UIButton+MRK.m */,
-				68E9A326D3D4F447E1EC906A5E8BB9BB /* UIColor+MRK.h */,
-				3055F498D52185105548AE7BC9DE98CD /* UIColor+MRK.m */,
-				D1B7260E3EF20931A3EB1DF42B8DB130 /* UILabel+MRK.h */,
-				0391CECD1EBA0B4078E306D80120D8A1 /* UILabel+MRK.m */,
-				3186210DB762FFE51F500EB05D58AA62 /* UIViewController+MRK.h */,
-				0A83A26A42F57664097372C2ACD65BDD /* UIViewController+MRK.m */,
+				419631F675377DDED8007482DB727BE8 /* MRAlertView.h */,
+				AE697265EE378F54A3899258FAD330D9 /* MRAlertView.m */,
 			);
-			name = MccReeTools;
-			path = MccReeKit/Classes/MccReeTools;
-			sourceTree = "<group>";
-		};
-		34710DB409B3082B4295BCDB7CCEAFE6 /* MccReeKit */ = {
-			isa = PBXGroup;
-			children = (
-				29824F99A105FCE8028F9B9932B45572 /* MccReeKit.h */,
-				AB61B89A13D95D3A2F4A1FF20386CEAF /* MccReeAlertView */,
-				32151C6BA8F7F3C97D667581B627C9D9 /* MccReeTools */,
-				D79AA315EFED608BABA7365CCA195D7C /* Pod */,
-				560F16C8F766B981CCD9193DB50794B2 /* Support Files */,
-			);
-			name = MccReeKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		560F16C8F766B981CCD9193DB50794B2 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				33D804728848C7E19A8F560F5CF17788 /* Info.plist */,
-				ECF3E101D67C87868B3FAC2EA4446F1B /* MccReeKit.modulemap */,
-				52CAA65435154C7337823D78CF364DAA /* MccReeKit.xcconfig */,
-				4C67061274F3318E16F792019714D62B /* MccReeKit-dummy.m */,
-				6FDE3AE2B0A001397F33F333DC341B5E /* MccReeKit-prefix.pch */,
-				0EEABF1C57D23113264AD62A02FEF6F3 /* MccReeKit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MccReeKit";
+			name = MccReeAlertView;
+			path = MccReeKit/Classes/MccReeAlertView;
 			sourceTree = "<group>";
 		};
 		62F5DE916A7BDDB1B27732C871924865 /* Pods-MccReeKit_Tests */ = {
@@ -190,6 +175,47 @@
 			);
 			name = "Pods-MccReeKit_Tests";
 			path = "Target Support Files/Pods-MccReeKit_Tests";
+			sourceTree = "<group>";
+		};
+		656253FF799A7573B637A1542539BE04 /* MccReeKit */ = {
+			isa = PBXGroup;
+			children = (
+				F914A6719906E76003EEB16DEB7C69B2 /* MccReeKit.h */,
+				489CD7D63E802C42C4FB01439DDD6042 /* MccReeAlertView */,
+				67B496F42A6314E23602FF3C5A791667 /* MccReeTools */,
+				AD52625D4DB5E772706F90CF7765DDBB /* Pod */,
+				D055365F9CF120B8D30B37F85FF6E3C0 /* Support Files */,
+			);
+			name = MccReeKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		67B496F42A6314E23602FF3C5A791667 /* MccReeTools */ = {
+			isa = PBXGroup;
+			children = (
+				5E55E1D2688AA0E2244DA8AE3F107204 /* CAGradientLayer+MRK.h */,
+				FA5B2D8CBE6DB9210DBD2853E5D00E57 /* CAGradientLayer+MRK.m */,
+				D8C23A7304B73FA9F3AF8445F30729E3 /* MccReeToolClass.h */,
+				0EB97BCC3D9A37266AF306204F3E623F /* MccReeToolClass.m */,
+				60A4E3D7F87BD3073C11EBD28F5D2C29 /* NSString+MRK.h */,
+				C1D469CBA1F986AE756A7627B3F23D1C /* NSString+MRK.m */,
+				9A3C035CE77451369845C3D729610817 /* UIButton+MRK.h */,
+				8D64C7951192E8B89A99DCCEFD76ACF1 /* UIButton+MRK.m */,
+				A7021903E42A9826DB189FEE9B334E3C /* UIColor+MRK.h */,
+				7E12C77A16463067C424BCE26FCE170E /* UIColor+MRK.m */,
+				EF795929F75BA45B3A1FF658F70CB82D /* UIImageView+MRK.h */,
+				0E4C1EBADE7048B235E2355FFE58621E /* UIImageView+MRK.m */,
+				1D1AE9153BE6DD827B21379014174B63 /* UILabel+MRK.h */,
+				83083691E8967F6BACB0EC46AD61B554 /* UILabel+MRK.m */,
+				CC5E619CE4BC78E10DA52C9FE84A3EAE /* UINavigationBar+MRK.h */,
+				465252351C749161E2CF76864A74ADD3 /* UINavigationBar+MRK.m */,
+				9769E7C0C5418F14AE57C2E4D93866AC /* UIView+MRK.h */,
+				E5FC2C3D28D54A4009DBB8D0E6685245 /* UIView+MRK.m */,
+				BDB9BD50FA7484FA59BBCCF520AF8BF8 /* UIViewController+MRK.h */,
+				AE9214DFC9E9A935551F04446AA2D78A /* UIViewController+MRK.m */,
+			);
+			name = MccReeTools;
+			path = MccReeKit/Classes/MccReeTools;
 			sourceTree = "<group>";
 		};
 		7B327CA61F51DFA34772FDCBD062F9A7 /* Pods-MccReeKit_Example */ = {
@@ -224,7 +250,7 @@
 		8F24DB8E27C42697164B4169C234084F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				34710DB409B3082B4295BCDB7CCEAFE6 /* MccReeKit */,
+				656253FF799A7573B637A1542539BE04 /* MccReeKit */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -238,14 +264,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		AB61B89A13D95D3A2F4A1FF20386CEAF /* MccReeAlertView */ = {
+		AD52625D4DB5E772706F90CF7765DDBB /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				8D1B78AAE6FD8156C9BB134F8EA409AF /* MRAlertView.h */,
-				4755A5F31D71BBC3E6BC474C1D011F80 /* MRAlertView.m */,
+				F05B0F7A1D39129C6768A8EBF37869E9 /* LICENSE */,
+				5C255354174FE3CFFFFF15C5505C5243 /* MccReeKit.podspec */,
+				8EEA6F142158E6C24796900CB8EBC5C1 /* README.md */,
 			);
-			name = MccReeAlertView;
-			path = MccReeKit/Classes/MccReeAlertView;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -256,6 +282,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D055365F9CF120B8D30B37F85FF6E3C0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				07555092E45943A06895CA25F2D2AD26 /* Info.plist */,
+				D9E9E56AE87F9E5144F1048CEB0C281F /* MccReeKit.modulemap */,
+				9E73ED6A6268065AABCDA97701F52E28 /* MccReeKit.xcconfig */,
+				633F4697076BC4BCEC2250FD6EAD378F /* MccReeKit-dummy.m */,
+				C252F6E051B22CAF8A5FAAB94AB201F0 /* MccReeKit-prefix.pch */,
+				B13E28BCDD364A16A97F6A40B8D2C5C4 /* MccReeKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MccReeKit";
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -264,19 +304,29 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		D79AA315EFED608BABA7365CCA195D7C /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				CD2B62AC166BD64563B40F9EA95D49C7 /* LICENSE */,
-				B9B60E96F1B1ADA8AB9AFE7B78A6A3E4 /* MccReeKit.podspec */,
-				CB4CDAF364FF23CB14E0977B04D04019 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		8420A5D7CAEE12C43972009487348844 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0894A4D37DE63499F3B9916898303AC5 /* CAGradientLayer+MRK.h in Headers */,
+				52AE437B1602F0A1F231364CB92F3BE0 /* MccReeKit-umbrella.h in Headers */,
+				0D240D8B703083B405D40FC2DE585C5D /* MccReeKit.h in Headers */,
+				504AC4C02B6B239B4F4848C72709DC96 /* MccReeToolClass.h in Headers */,
+				AFEA4EAE1FE49CC43FA77C08E88361E1 /* MRAlertView.h in Headers */,
+				A20E61891DC4C609E381A82700E275D0 /* NSString+MRK.h in Headers */,
+				4D975A7F1E7DD8C5DF90CCA251F38E0F /* UIButton+MRK.h in Headers */,
+				F9A78E59483DC7EEC53ABC4AE4C5D6FF /* UIColor+MRK.h in Headers */,
+				646B0DD92210E08F07CBF469500D7D5E /* UIImageView+MRK.h in Headers */,
+				692004B5A546BCCEC6E1B5FBE30CA783 /* UILabel+MRK.h in Headers */,
+				5295C32CAB02F4504C65E9AD8EFBB94C /* UINavigationBar+MRK.h in Headers */,
+				F0F29516608266CE0532157482AA9C31 /* UIView+MRK.h in Headers */,
+				1AE36F1283CC89A2F085D6A9C1F67422 /* UIViewController+MRK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		898EAC5DEEFE4412C36AF26D69D61923 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -293,31 +343,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9C8402261F867059CC0999385E20ABE /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				428C53D69CAEAA5E4660C1E417E3A5EB /* MccReeKit-umbrella.h in Headers */,
-				D9B07BC7F45FFB825F3FC2193ABF566D /* MccReeKit.h in Headers */,
-				EF42AF3DF76A305CE8A6A315DF8F977C /* MccReeToolClass.h in Headers */,
-				17F8572E9EA1D619AB173728762DF88B /* MRAlertView.h in Headers */,
-				B0C665AEED9CEBB77E13E6B9B0654D40 /* UIButton+MRK.h in Headers */,
-				31311DBC4462793906958C5BF0BD2D71 /* UIColor+MRK.h in Headers */,
-				B5FD0C01E370B63383311414D8D98350 /* UILabel+MRK.h in Headers */,
-				D7F3E02CAB550A30A1F8F5E63534B4D6 /* UIViewController+MRK.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		169F6D07839E3FE90A95CDB7B6A9AEDC /* MccReeKit */ = {
+		2EDADC652BD8F942B050FECFC5D083A1 /* MccReeKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 05C2F298EE6BAFDD653AF845E94350A1 /* Build configuration list for PBXNativeTarget "MccReeKit" */;
+			buildConfigurationList = 4ACD296CAA07B35B6A15EF97EA6DADB8 /* Build configuration list for PBXNativeTarget "MccReeKit" */;
 			buildPhases = (
-				DE881E578575B6DB110DB29B364C7F3A /* Sources */,
-				457453FA9A1C89B0BA46B274843D4675 /* Frameworks */,
-				F9C8402261F867059CC0999385E20ABE /* Headers */,
+				558872EF14EEC744A3A0A4CA89DA26E3 /* Sources */,
+				67041AFAFFE74360883A72571B443178 /* Frameworks */,
+				8420A5D7CAEE12C43972009487348844 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -384,7 +419,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				169F6D07839E3FE90A95CDB7B6A9AEDC /* MccReeKit */,
+				2EDADC652BD8F942B050FECFC5D083A1 /* MccReeKit */,
 				5DE8DDE018D102BDAAD8D19C5C650D5A /* Pods-MccReeKit_Example */,
 				CF655EC640B15795B41AEBB4CAFEAECE /* Pods-MccReeKit_Tests */,
 			);
@@ -392,6 +427,25 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		558872EF14EEC744A3A0A4CA89DA26E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87700952BE239F86686135D2F89B5B59 /* CAGradientLayer+MRK.m in Sources */,
+				C544D205BE2DCA117750E72339741B77 /* MccReeKit-dummy.m in Sources */,
+				C3960B761EC49A92B40B3FCB9BC32DA2 /* MccReeToolClass.m in Sources */,
+				A1C959DB4921BCBFEF86052897C8694E /* MRAlertView.m in Sources */,
+				B5F29391783A27057EE6E88007546F95 /* NSString+MRK.m in Sources */,
+				9A62ED0C13909135F9EF88A4A1ACE375 /* UIButton+MRK.m in Sources */,
+				28425B2B9A019C9861318B77DC5E20F0 /* UIColor+MRK.m in Sources */,
+				539395594BB6001F80A2B09D48D99412 /* UIImageView+MRK.m in Sources */,
+				810016FB38A819DD2050030505636BB6 /* UILabel+MRK.m in Sources */,
+				DEBB977FA6903A5E6EB4B5CB085176BC /* UINavigationBar+MRK.m in Sources */,
+				CBCED3B938E9BE9D2FBE801BC9A7BA8E /* UIView+MRK.m in Sources */,
+				55A348ADAF61B1DAD80D775048C44271 /* UIViewController+MRK.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B7596E1C675D8B752E7E4A2872D78BB9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -408,27 +462,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE881E578575B6DB110DB29B364C7F3A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C7943A4F0143800B94D387F9BE5DED8F /* MccReeKit-dummy.m in Sources */,
-				D560BE2D1BCD2DCCC5AEFEF394E029F6 /* MccReeToolClass.m in Sources */,
-				46174D7A2F15159C3BF40448EACB7F88 /* MRAlertView.m in Sources */,
-				20EF1CE9AF4C02874956AADFAFA39494 /* UIButton+MRK.m in Sources */,
-				4A753FAD70D2D2A671FF3C078E9F2C75 /* UIColor+MRK.m in Sources */,
-				98B25B9452CF76BFCA64860EBD745268 /* UILabel+MRK.m in Sources */,
-				3663C97905E1215A74732C886DC1696E /* UIViewController+MRK.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		783293548D4F7BA09E55B638FE3B348D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MccReeKit;
-			target = 169F6D07839E3FE90A95CDB7B6A9AEDC /* MccReeKit */;
+			target = 2EDADC652BD8F942B050FECFC5D083A1 /* MccReeKit */;
 			targetProxy = F033E1D412CB39D05056A5F57FCEB3E7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -466,6 +506,35 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		4A9DD29DE16E026231094CFFA53E84F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E73ED6A6268065AABCDA97701F52E28 /* MccReeKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MccReeKit/MccReeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MccReeKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MccReeKit/MccReeKit.modulemap";
+				PRODUCT_NAME = MccReeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -685,38 +754,9 @@
 			};
 			name = Debug;
 		};
-		AB402D1D08B96FE6939301FC084D1F52 /* Debug */ = {
+		F597E653AB308B32F53969370368E7DA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52CAA65435154C7337823D78CF364DAA /* MccReeKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MccReeKit/MccReeKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MccReeKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MccReeKit/MccReeKit.modulemap";
-				PRODUCT_NAME = MccReeKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		EE8A447791F9399EE510FB79FA5157A4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52CAA65435154C7337823D78CF364DAA /* MccReeKit.xcconfig */;
+			baseConfigurationReference = 9E73ED6A6268065AABCDA97701F52E28 /* MccReeKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -756,20 +796,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		05C2F298EE6BAFDD653AF845E94350A1 /* Build configuration list for PBXNativeTarget "MccReeKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AB402D1D08B96FE6939301FC084D1F52 /* Debug */,
-				EE8A447791F9399EE510FB79FA5157A4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
 				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ACD296CAA07B35B6A15EF97EA6DADB8 /* Build configuration list for PBXNativeTarget "MccReeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A9DD29DE16E026231094CFFA53E84F6 /* Debug */,
+				F597E653AB308B32F53969370368E7DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

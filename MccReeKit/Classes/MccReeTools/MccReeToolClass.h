@@ -6,6 +6,9 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ 工具类
+ */
 @interface MccReeToolClass : NSObject
 
 

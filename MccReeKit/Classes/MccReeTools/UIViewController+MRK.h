@@ -5,6 +5,9 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ 获取导航条返回事件
+ */
 @protocol MRKBackButtonHandlerProtocol <NSObject>
 
 @optional
