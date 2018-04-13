@@ -29,6 +29,7 @@
                                         cornerRadius:5
                                          borderWidth:1];
     [btn setTitle:@"按钮" forState:UIControlStateNormal];
+    [NSString stringWithInt:123];
     [self.view addSubview:btn];
 }
 

@@ -10,7 +10,7 @@
 @implementation NSString (MRK)
 
 + (NSString *)stringWithInt:(NSInteger)i{
-    return [NSString stringWithFormat:@"%ld",i];
+    return [NSString stringWithFormat:@"%ld",(long)i];
 }
 
 @end
