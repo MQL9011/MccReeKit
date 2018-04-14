@@ -31,6 +31,13 @@
     [btn setTitle:@"按钮" forState:UIControlStateNormal];
     [NSString stringWithInt:123];
     [self.view addSubview:btn];
+    
+    
+    //圆角相关高性能,不触发离线渲染,想怎么设就怎么设
+    UIImageView *imgV = [UIImageView mr_circleImageView];
+    imgV.frame = CGRectMake(200, 200, 100, 100);
+    [imgV setImage:[UIImage imageNamed:@"测试图片"]];
+    [self.view addSubview:imgV];
 }
 
 - (void)didReceiveMemoryWarning

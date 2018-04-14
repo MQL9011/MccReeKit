@@ -17,6 +17,7 @@
 #import "NSString+MRK.h"
 #import "UIButton+MRK.h"
 #import "UIColor+MRK.h"
+#import "UIImage+MRK.h"
 #import "UIImageView+MRK.h"
 #import "UILabel+MRK.h"
 #import "UINavigationBar+MRK.h"

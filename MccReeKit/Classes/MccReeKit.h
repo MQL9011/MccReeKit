@@ -16,6 +16,7 @@
 #import "UIViewController+MRK.h"
 #import "CAGradientLayer+MRK.h"
 #import "NSString+MRK.h"
+#import "UIImage+MRK.h"
 #import "UIImageView+MRK.h"
 #import "UINavigationBar+MRK.h"
 #import "UIView+MRK.h"

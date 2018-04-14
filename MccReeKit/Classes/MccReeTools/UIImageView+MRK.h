@@ -1,26 +1,41 @@
 //
 //  UIImageView+MRK.h
-//  MccReeKit
+//  YSTUserGroup
 //
-//  Created by MccRee on 2018/4/13.
+//  Created by MccRee on 2018/3/28.
 //
 
 #import <UIKit/UIKit.h>
+#import <objc/runtime.h>
 
 @interface UIImageView (MRK)
 
 /**
- 传说中的高性能画圆角
+ 闪速创建一个圆图
  */
-- (instancetype)initWithRoundingRectImageView;
-/**
- 画圆角
- */
-- (instancetype)initWithCornerRadiusAdvance:(CGFloat)cornerRadius rectCornerType:(UIRectCorner)rectCornerType;
++ (instancetype)mr_circleImageView;
 
 /**
- 圆形
+ 自动设置图片的圆角
  */
-- (void)zy_cornerRadiusRoundingRect;
+- (void)mr_autoSetImageCornerRedius:(CGFloat)cornerRedius
+                        ConrnerType:(UIRectCorner)cornerType;
+
+
+/**
+ 直接设置带圆角的图片(多适用于加载本地图片的imageView)
+ */
+- (void)mr_autoSetImageCornerRedius:(CGFloat)cornerRedius
+                        ConrnerType:(UIRectCorner)cornerType
+                              Image:(UIImage *)image;
+
+/**
+ 自动设置带边框的图片圆角
+ */
+- (void)mr_autoSetImageCornerRedius:(CGFloat)cornerRedius
+                        ConrnerType:(UIRectCorner)cornerType
+                        BorderColor:(UIColor *)borderColor
+                        BorderWidth:(CGFloat)borderWidth
+                              Image:(UIImage *)image;
 
 @end

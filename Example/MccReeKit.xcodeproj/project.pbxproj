@@ -22,6 +22,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		848E204E2081E644006F664C /* 测试图片@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 848E204D2081E644006F664C /* 测试图片@2x.png */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		CABE428E20CD37EAAA29D4C3 /* Pods_MccReeKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 233EFC24CD709591AC0BC7E8 /* Pods_MccReeKit_Example.framework */; };
 /* End PBXBuildFile section */
@@ -39,9 +40,9 @@
 /* Begin PBXFileReference section */
 		0CACECC9DAFA455A3DEBB4CE /* Pods-MccReeKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MccReeKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MccReeKit_Tests/Pods-MccReeKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		233EFC24CD709591AC0BC7E8 /* Pods_MccReeKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MccReeKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DFEF677C955DDA85C3FFA5B /* MccReeKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MccReeKit.podspec; path = ../MccReeKit.podspec; sourceTree = "<group>"; };
+		2DFEF677C955DDA85C3FFA5B /* MccReeKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MccReeKit.podspec; path = ../MccReeKit.podspec; sourceTree = "<group>"; };
 		304C390D83E72319B38FE42B /* Pods-MccReeKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MccReeKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MccReeKit_Example/Pods-MccReeKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		55F36F3ADDF89FFDB0F6D680 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		55F36F3ADDF89FFDB0F6D680 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MccReeKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MccReeKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,8 +65,9 @@
 		69AE6CD13F73824A0E92E987 /* Pods-MccReeKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MccReeKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MccReeKit_Tests/Pods-MccReeKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B095750A2D8F2AF36029888 /* Pods-MccReeKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MccReeKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MccReeKit_Example/Pods-MccReeKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		848E204D2081E644006F664C /* 测试图片@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "测试图片@2x.png"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A7C647CD13F530A9B2E52387 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A7C647CD13F530A9B2E52387 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F1C09C5E808663F6A79B8481 /* Pods_MccReeKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MccReeKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -134,6 +136,7 @@
 			children = (
 				6003F59C195388D20070C39A /* MRKAppDelegate.h */,
 				6003F59D195388D20070C39A /* MRKAppDelegate.m */,
+				848E204D2081E644006F664C /* 测试图片@2x.png */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* MRKViewController.h */,
 				6003F5A6195388D20070C39A /* MRKViewController.m */,
@@ -281,6 +284,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				848E204E2081E644006F664C /* 测试图片@2x.png in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
