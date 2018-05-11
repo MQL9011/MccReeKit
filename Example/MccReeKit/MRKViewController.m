@@ -38,6 +38,8 @@
     imgV.frame = CGRectMake(200, 200, 100, 100);
     [imgV setImage:[UIImage imageNamed:@"测试图片"]];
     [self.view addSubview:imgV];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
