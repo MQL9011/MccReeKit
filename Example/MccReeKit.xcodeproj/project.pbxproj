@@ -40,7 +40,7 @@
 /* Begin PBXFileReference section */
 		0CACECC9DAFA455A3DEBB4CE /* Pods-MccReeKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MccReeKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MccReeKit_Tests/Pods-MccReeKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		233EFC24CD709591AC0BC7E8 /* Pods_MccReeKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MccReeKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DFEF677C955DDA85C3FFA5B /* MccReeKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MccReeKit.podspec; path = ../MccReeKit.podspec; sourceTree = "<group>"; };
+		2DFEF677C955DDA85C3FFA5B /* MccReeKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MccReeKit.podspec; path = ../MccReeKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		304C390D83E72319B38FE42B /* Pods-MccReeKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MccReeKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MccReeKit_Example/Pods-MccReeKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		55F36F3ADDF89FFDB0F6D680 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MccReeKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MccReeKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
