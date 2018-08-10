@@ -125,8 +125,8 @@ void MethodSwizzle(Class c,SEL origSEL,SEL overrideSEL)
     [btn setTitle:@"完结" forState:UIControlStateNormal];
     [btn setTitleColor:color forState:UIControlStateNormal];
     btn.titleLabel.font = font;
-    btn.imageRect = CGRectMake(0, 0, 25, 25);
-    btn.titleRect = CGRectMake(-8, 40, 40, 14);
+    btn.imageRect = imgRect;
+    btn.titleRect = titleRect;
     btn.titleLabel.textAlignment =  NSTextAlignmentCenter;
     return btn;
 }
