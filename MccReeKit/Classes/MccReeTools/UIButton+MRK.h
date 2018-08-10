@@ -27,5 +27,18 @@
  */
 + (UIButton *_Nullable)createButtonOnlyBackgroundImage:(UIImage *_Nullable)img;
 
+/**
+ 创建按钮,带图片和文字
+ @param img 图片
+ @param color 文字颜色
+ @param font 文字大小
+ @param imgRect 图片位置,默认居中
+ @param titleRect 文本位置,默认居中
+ */
++ (UIButton *_Nullable)createButtonImage:(UIImage *)img
+                              titleColor:(UIColor *)color
+                               titleFont:(UIFont *)font
+                                 imgRect:(CGRect)imgRect
+                               titleRect:(CGRect)titleRect;
 
 @end

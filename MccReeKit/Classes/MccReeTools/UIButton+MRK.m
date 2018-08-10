@@ -107,4 +107,27 @@ void MethodSwizzle(Class c,SEL origSEL,SEL overrideSEL)
     return btn;
 }
 
+/**
+ 创建按钮,带图片和文字
+ @param img 图片
+ @param color 文字颜色
+ @param font 文字大小
+ @param imgRect 图片位置,默认居中
+ @param titleRect 文本位置,默认居中
+ */
++ (UIButton *_Nullable)createButtonImage:(UIImage *)img
+                              titleColor:(UIColor *)color
+                               titleFont:(UIFont *)font
+                                 imgRect:(CGRect)imgRect
+                               titleRect:(CGRect)titleRect{
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [btn setImage:[UIImage imageNamed:@""] forState:UIControlStateNormal];
+    [btn setTitle:@"完结" forState:UIControlStateNormal];
+    [btn setTitleColor:color forState:UIControlStateNormal];
+    btn.titleLabel.font = font;
+    btn.imageRect = CGRectMake(0, 0, 25, 25);
+    btn.titleRect = CGRectMake(-8, 40, 40, 14);
+    btn.titleLabel.textAlignment =  NSTextAlignmentCenter;
+    return btn;
+}
 @end

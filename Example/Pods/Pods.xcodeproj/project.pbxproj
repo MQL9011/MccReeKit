@@ -15,35 +15,42 @@
 		14303BAAD9CA716BFE896F3848B463A2 /* UILabel+MRK.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5970679D8FCDF7671C1772248E7D9D /* UILabel+MRK.m */; };
 		229D1D4C49EB9DDBFC61E7C27D2D5DB1 /* UIView+MRK.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC918F2317C96CB7F8EB1A23CEC2308 /* UIView+MRK.m */; };
 		299869C60254A2F77E610D496ECA31B3 /* NSString+MRK.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA4ADF46053826CA580D3E1779D56BA /* NSString+MRK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A578F3F678A09A86DBD163D12BDB039 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		3C566A853EDABD4F876E2F873F698C41 /* MccReeToolClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DCC31FF30B4B68CE32C523F5535D2AB /* MccReeToolClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43D3167CB92AE439DE43C484CBE82E6D /* Pods-MccReeKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8123970398D333F499510E503A7BD008 /* Pods-MccReeKit_Tests-dummy.m */; };
 		4B618897DDFCCE8D09D7343AD7E5D472 /* MRAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D0CA5E672BEFB39792817E9456EB58 /* MRAlertView.m */; };
+		5523829ACEF075498F7D76C4544DCD1E /* Pods-MccReeKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0680703B2E45B005D19760BF3B6036BB /* Pods-MccReeKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79F9F228EB620192B3F68B40420ED2CB /* MccReeToolClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F63E455B8E6794950304FC3280ECEEA4 /* MccReeToolClass.m */; };
 		80D840B659D2F8757AB8B5C525FDD835 /* UIButton+MRK.h in Headers */ = {isa = PBXBuildFile; fileRef = 945B8457735F9EA22878C4F5F7D954C7 /* UIButton+MRK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		82536943DC6B4C5E2D52385631E4EE92 /* MccReeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8418A0C33B72C1EA2B1193BF0CF4C477 /* MccReeKit-dummy.m */; };
-		85EC177374722602D01A6A65036F3413 /* Pods-MccReeKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8123970398D333F499510E503A7BD008 /* Pods-MccReeKit_Tests-dummy.m */; };
+		85A7B6A12851985C4571FF86393C6770 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		88A2FF2374D0E2871BCB5FA4EDFA6FBF /* UIImage+MRK.m in Sources */ = {isa = PBXBuildFile; fileRef = F89A73A26C3F32702B1E54F0F4B3602D /* UIImage+MRK.m */; };
-		986D9ACDDE81ADC71312F28DE81662BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		9DE40581EB8AE08BE8719920651E1962 /* UIViewController+MRK.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B3C406CE2FAA0ACBD8230523E4C92C /* UIViewController+MRK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B327703E41BBCDB3B9D4E2FABAD150B8 /* Pods-MccReeKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0680703B2E45B005D19760BF3B6036BB /* Pods-MccReeKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B729C1CF6D8EE0637F60E461C807832A /* UIButton+MRK.m in Sources */ = {isa = PBXBuildFile; fileRef = 543B6FF69AE75FA18C7B6DDC62851B13 /* UIButton+MRK.m */; };
 		B8B2980E01F38863ED92D7F46E270199 /* UIImageView+MRK.m in Sources */ = {isa = PBXBuildFile; fileRef = 9752AC573723C92181C31F0323D10377 /* UIImageView+MRK.m */; };
 		BA7D0D22399E2421D702D6F70CB99528 /* UIColor+MRK.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CEBC302020C57CE49E049C431DBCC7F /* UIColor+MRK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEEDE04BE19DA4D38A9B0030EBC55EDE /* UINavigationBar+MRK.h in Headers */ = {isa = PBXBuildFile; fileRef = DB72C74AA020986CEB5B3D1A61D11BD8 /* UINavigationBar+MRK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1C003457396102B2B625A72FA7726F3 /* Pods-MccReeKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 150CADC1374399A1D0EE8E6258E8E5BE /* Pods-MccReeKit_Example-dummy.m */; };
 		C6424F576B26682C8262E886D0CAF9A8 /* UILabel+MRK.h in Headers */ = {isa = PBXBuildFile; fileRef = 84810E421D1BBBA5AE6809511C9FEFAA /* UILabel+MRK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C65CCE28B235C6611DB34394D1421955 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		C8E9E24DFCB7EB640DE3010973E336E3 /* MccReeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A234694E118943E5041FA5ED63BE7EBC /* MccReeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C90C034A8269CB3F8816BEC5A5C948EF /* UIViewController+MRK.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB4A4D382BFB08FA67FB6BAFF2F8F96 /* UIViewController+MRK.m */; };
 		CB498448F979B6E173F12F58DA12D377 /* UIView+MRK.h in Headers */ = {isa = PBXBuildFile; fileRef = 21258FAFEB1DBF59F94D0489C66F1CF7 /* UIView+MRK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CEFEFA16F7BE24D30C609E5AB45E3FE7 /* MRAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 25C4C18EFF75407E04E0B784C99D9564 /* MRAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D46DCCCDF3305AF5E4BB4ECB86BEDDBF /* Pods-MccReeKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AA8D4CEB692C7547641C979E15C1915 /* Pods-MccReeKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DC156EC6E6815B9A231E3314BD587B29 /* CAGradientLayer+MRK.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBE2C8B813000EE26DCB2B1A2B0FC3F /* CAGradientLayer+MRK.m */; };
-		E542EA5E7C1FE1AD9DFF5AAAA6DB4912 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		FBBCA2BA7B81A6C54FC4A5F08305F02A /* MccReeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D3DBDF02AEF0D83D11703B87F1BAC9FF /* MccReeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCB8234F93576B53BFC61E0389472365 /* UIImageView+MRK.h in Headers */ = {isa = PBXBuildFile; fileRef = DD01AEB783B099F0AA22ACD03D055018 /* UIImageView+MRK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF878A8D140E19483FFB7625A0D564DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4FA2AF3C15E242567607D102302CC899 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DE8DDE018D102BDAAD8D19C5C650D5A;
+			remoteInfo = "Pods-MccReeKit_Example";
+		};
 		F033E1D412CB39D05056A5F57FCEB3E7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -80,9 +87,9 @@
 		58E9C58B48DAFEB0208BC895EAC2159B /* Pods-MccReeKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MccReeKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		59141D27A3CDEEAFBFB49DE3206F240E /* Pods-MccReeKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MccReeKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5941204C1A93B99F868568DEC64AD0AC /* CAGradientLayer+MRK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CAGradientLayer+MRK.h"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5B98811757C3BF6EC686F60DFCD926C1 /* Pods_MccReeKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MccReeKit_Example.framework; path = "Pods-MccReeKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F5970679D8FCDF7671C1772248E7D9D /* UILabel+MRK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+MRK.m"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6B865B308979D205E736C1727FB708F3 /* MccReeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MccReeKit.modulemap; sourceTree = "<group>"; };
 		7566C73DC6D66BC121C43BE9DC1F0807 /* Pods-MccReeKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MccReeKit_Tests-resources.sh"; sourceTree = "<group>"; };
 		78087A361DD62A34F465FD6D1827DEC8 /* Pods-MccReeKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MccReeKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -120,15 +127,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				986D9ACDDE81ADC71312F28DE81662BD /* Foundation.framework in Frameworks */,
+				2A578F3F678A09A86DBD163D12BDB039 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80C92B6D109294B04C93FBCC21B6EAC7 /* Frameworks */ = {
+		5F2C9456A00E52018169F915D59C4432 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E542EA5E7C1FE1AD9DFF5AAAA6DB4912 /* Foundation.framework in Frameworks */,
+				FF878A8D140E19483FFB7625A0D564DE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +143,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C65CCE28B235C6611DB34394D1421955 /* Foundation.framework in Frameworks */,
+				85A7B6A12851985C4571FF86393C6770 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +182,14 @@
 			);
 			name = MccReeAlertView;
 			path = MccReeKit/Classes/MccReeAlertView;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		62F5DE916A7BDDB1B27732C871924865 /* Pods-MccReeKit_Tests */ = {
@@ -267,17 +282,9 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		EE233AEEAA00FFA4B25B324BE5C0DD6F /* MccReeTools */ = {
@@ -334,11 +341,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		898EAC5DEEFE4412C36AF26D69D61923 /* Headers */ = {
+		76BBB244115B3B526189BD5124DFF722 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B327703E41BBCDB3B9D4E2FABAD150B8 /* Pods-MccReeKit_Tests-umbrella.h in Headers */,
+				5523829ACEF075498F7D76C4544DCD1E /* Pods-MccReeKit_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,17 +395,18 @@
 			productReference = 351F188541ADB08F968D0246DC1A1A02 /* MccReeKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CF655EC640B15795B41AEBB4CAFEAECE /* Pods-MccReeKit_Tests */ = {
+		B0FEF99DC963811E129DBEBF3B7944B2 /* Pods-MccReeKit_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 057E48A8B0143C6422AA7A83243C8E24 /* Build configuration list for PBXNativeTarget "Pods-MccReeKit_Tests" */;
+			buildConfigurationList = 6D60CC67FFB94F467995E18522B6DBA7 /* Build configuration list for PBXNativeTarget "Pods-MccReeKit_Tests" */;
 			buildPhases = (
-				BC8C1E0667B35B50936F3C0E81FDEF96 /* Sources */,
-				80C92B6D109294B04C93FBCC21B6EAC7 /* Frameworks */,
-				898EAC5DEEFE4412C36AF26D69D61923 /* Headers */,
+				4A67E6FC7EFA3C121BE00A41A9945038 /* Sources */,
+				5F2C9456A00E52018169F915D59C4432 /* Frameworks */,
+				76BBB244115B3B526189BD5124DFF722 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C1D3DFDDB8B0A1F39F8C7C73EB0BA3BC /* PBXTargetDependency */,
 			);
 			name = "Pods-MccReeKit_Tests";
 			productName = "Pods-MccReeKit_Tests";
@@ -428,25 +436,25 @@
 			targets = (
 				AB7EE19CB8302118E7FB3B6FCE39B3DB /* MccReeKit */,
 				5DE8DDE018D102BDAAD8D19C5C650D5A /* Pods-MccReeKit_Example */,
-				CF655EC640B15795B41AEBB4CAFEAECE /* Pods-MccReeKit_Tests */,
+				B0FEF99DC963811E129DBEBF3B7944B2 /* Pods-MccReeKit_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4A67E6FC7EFA3C121BE00A41A9945038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D3167CB92AE439DE43C484CBE82E6D /* Pods-MccReeKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B7596E1C675D8B752E7E4A2872D78BB9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C1C003457396102B2B625A72FA7726F3 /* Pods-MccReeKit_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BC8C1E0667B35B50936F3C0E81FDEF96 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				85EC177374722602D01A6A65036F3413 /* Pods-MccReeKit_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,45 +487,20 @@
 			target = AB7EE19CB8302118E7FB3B6FCE39B3DB /* MccReeKit */;
 			targetProxy = F033E1D412CB39D05056A5F57FCEB3E7 /* PBXContainerItemProxy */;
 		};
+		C1D3DFDDB8B0A1F39F8C7C73EB0BA3BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MccReeKit_Example";
+			target = 5DE8DDE018D102BDAAD8D19C5C650D5A /* Pods-MccReeKit_Example */;
+			targetProxy = 4FA2AF3C15E242567607D102302CC899 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		215EDA96A1F4BC66C71417EF1EDB09E8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0ADF87B1366452300654DE6B0843C926 /* Pods-MccReeKit_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MccReeKit_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MccReeKit_Example/Pods-MccReeKit_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MccReeKit_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		421EB6109CA92E2FFB2D4E84EC0EC7B4 /* Release */ = {
+		02B54A763BC129D14099C8104EA69AEC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DDC44D4785E97019F6B9739356228C8D /* Pods-MccReeKit_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -537,7 +520,7 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MccReeKit_Example;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -547,101 +530,7 @@
 			};
 			name = Release;
 		};
-		76E5A5E99759919768C3C66030ECC08D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 78087A361DD62A34F465FD6D1827DEC8 /* Pods-MccReeKit_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MccReeKit_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MccReeKit_Tests/Pods-MccReeKit_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MccReeKit_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		92CA128E04ABC0A61EFC5E1F593B706E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5392C4CB5F837BB5D3E25DC30A1056B7 /* Pods-MccReeKit_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MccReeKit_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MccReeKit_Tests/Pods-MccReeKit_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MccReeKit_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BFD96F4ECD1ACCEA08A01FE4872F6CD2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EBF894700522B55382F948B9412E8796 /* MccReeKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MccReeKit/MccReeKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MccReeKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MccReeKit/MccReeKit.modulemap";
-				PRODUCT_NAME = MccReeKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C3E37FB098AE76440E29106ADBF00CEB /* Debug */ = {
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -673,6 +562,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -697,14 +587,174 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		DA03565BE765DB55C6448FB363A44481 /* Release */ = {
+		2069BDA2A37FD49B115A4FCD0CE46ADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBF894700522B55382F948B9412E8796 /* MccReeKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MccReeKit/MccReeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MccReeKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MccReeKit/MccReeKit.modulemap";
+				PRODUCT_MODULE_NAME = MccReeKit;
+				PRODUCT_NAME = MccReeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6212569EAABCFA596F9BEC5F12A06308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5392C4CB5F837BB5D3E25DC30A1056B7 /* Pods-MccReeKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MccReeKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MccReeKit_Tests/Pods-MccReeKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7DB078F6E2388976CDE5394E4A6E9D9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBF894700522B55382F948B9412E8796 /* MccReeKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MccReeKit/MccReeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MccReeKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MccReeKit/MccReeKit.modulemap";
+				PRODUCT_MODULE_NAME = MccReeKit;
+				PRODUCT_NAME = MccReeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C329D75D2A6C67786C53CC2F84FF66E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78087A361DD62A34F465FD6D1827DEC8 /* Pods-MccReeKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MccReeKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MccReeKit_Tests/Pods-MccReeKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F07EC5FAA39747D4446537F9068C8517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ADF87B1366452300654DE6B0843C926 /* Pods-MccReeKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MccReeKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MccReeKit_Example/Pods-MccReeKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -736,6 +786,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -756,59 +807,19 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		E35CD141303CB7F22C0844990E0FE92F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EBF894700522B55382F948B9412E8796 /* MccReeKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MccReeKit/MccReeKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MccReeKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MccReeKit/MccReeKit.modulemap";
-				PRODUCT_NAME = MccReeKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		057E48A8B0143C6422AA7A83243C8E24 /* Build configuration list for PBXNativeTarget "Pods-MccReeKit_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				92CA128E04ABC0A61EFC5E1F593B706E /* Debug */,
-				76E5A5E99759919768C3C66030ECC08D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		1368211CD4DF08D99D1E145F5387D9A5 /* Build configuration list for PBXNativeTarget "MccReeKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFD96F4ECD1ACCEA08A01FE4872F6CD2 /* Debug */,
-				E35CD141303CB7F22C0844990E0FE92F /* Release */,
+				2069BDA2A37FD49B115A4FCD0CE46ADE /* Debug */,
+				7DB078F6E2388976CDE5394E4A6E9D9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -816,8 +827,17 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C3E37FB098AE76440E29106ADBF00CEB /* Debug */,
-				DA03565BE765DB55C6448FB363A44481 /* Release */,
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D60CC67FFB94F467995E18522B6DBA7 /* Build configuration list for PBXNativeTarget "Pods-MccReeKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6212569EAABCFA596F9BEC5F12A06308 /* Debug */,
+				C329D75D2A6C67786C53CC2F84FF66E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -825,8 +845,8 @@
 		8E809EE289FFA0D0EA644EBC30CEA852 /* Build configuration list for PBXNativeTarget "Pods-MccReeKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				215EDA96A1F4BC66C71417EF1EDB09E8 /* Debug */,
-				421EB6109CA92E2FFB2D4E84EC0EC7B4 /* Release */,
+				F07EC5FAA39747D4446537F9068C8517 /* Debug */,
+				02B54A763BC129D14099C8104EA69AEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -6,11 +6,11 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   MccReeKit:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
   MccReeKit: 0cdaae7077c2c7f7da2e48f5cd56cb6ab883cb5e
 
 PODFILE CHECKSUM: 4288afbd5722ed7dbb127192e61d92c6b4deffcb
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.3
