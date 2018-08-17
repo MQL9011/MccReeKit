@@ -12,4 +12,10 @@
  NSInteger转String,通常用于Label上显示
  */
 + (NSString *)stringWithInt:(NSInteger)i;
+
+
+/**
+ 当前系统时间
+ */
++ (NSString *)timeStrNow;
 @end
