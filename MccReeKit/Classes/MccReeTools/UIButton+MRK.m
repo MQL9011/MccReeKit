@@ -121,7 +121,7 @@ void MethodSwizzle(Class c,SEL origSEL,SEL overrideSEL)
                                  imgRect:(CGRect)imgRect
                                titleRect:(CGRect)titleRect{
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-    [btn setImage:[UIImage imageNamed:@""] forState:UIControlStateNormal];
+    [btn setImage:img forState:UIControlStateNormal];
     [btn setTitle:@"完结" forState:UIControlStateNormal];
     [btn setTitleColor:color forState:UIControlStateNormal];
     btn.titleLabel.font = font;
