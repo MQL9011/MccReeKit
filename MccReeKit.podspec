@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MccReeKit'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'MccReeKit集成了开发常用的扩展.'
 
                     #加入高性能画圆角
