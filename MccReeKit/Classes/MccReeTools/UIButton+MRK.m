@@ -122,10 +122,39 @@ void MethodSwizzle(Class c,SEL origSEL,SEL overrideSEL)
                                titleRect:(CGRect)titleRect{
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
     [btn setImage:img forState:UIControlStateNormal];
-    [btn setTitle:@"完结" forState:UIControlStateNormal];
     [btn setTitleColor:color forState:UIControlStateNormal];
     btn.titleLabel.font = font;
     btn.imageRect = imgRect;
+    btn.titleRect = titleRect;
+    btn.titleLabel.textAlignment =  NSTextAlignmentCenter;
+    return btn;
+}
+
+/**
+ 创建按钮,只带图片,设置位置
+ @param img 图片
+ @param imgRect 图片位置
+ */
++ (UIButton *_Nullable)createButtonImage:(UIImage *)img
+                                 imgRect:(CGRect)imgRect{
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [btn setImage:img forState:UIControlStateNormal];
+    btn.imageRect = imgRect;
+    return btn;
+}
+
+/**
+ 创建按钮,只带文字
+ @param color 文字颜色
+ @param font 文字大小
+ @param titleRect 文本位置,默认居中
+ */
++ (UIButton *_Nullable)createButtonTitleColor:(UIColor *)color
+                                    titleFont:(UIFont *)font
+                                    titleRect:(CGRect)titleRect{
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [btn setTitleColor:color forState:UIControlStateNormal];
+    btn.titleLabel.font = font;
     btn.titleRect = titleRect;
     btn.titleLabel.textAlignment =  NSTextAlignmentCenter;
     return btn;

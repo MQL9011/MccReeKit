@@ -22,6 +22,12 @@
                                 endColor:(UIColor *)endColor;
 
 /**
+ 纵向渐变从上到下
+ */
++ (UIView *)createGradientViewVerticalStartColor:(UIColor *)startColor
+                                        endColor:(UIColor *)endColor;
+
+/**
  单独设置UIView x,y,width,height
  */
 - (void)setX:(CGFloat)x;
@@ -39,5 +45,11 @@
 - (CGFloat)height;
 
 - (void)setHeight:(CGFloat)height;
+
+
+/**
+ 给UIView单方向设置边框
+ */
+- (void)setDirectionBorderWithTop:(BOOL)hasTopBorder left:(BOOL)hasLeftBorder bottom:(BOOL)hasBottomBorder right:(BOOL)hasRightBorder borderColor:(UIColor *)borderColor withBorderWidth:(CGFloat)borderWidth;
 
 @end

@@ -55,4 +55,9 @@
  设置富文本
  */
 - (void)setAttrStr:(NSString *)str;
+
+/**
+ 文字从左上角对齐
+ */
+- (void)textLeftTopAlign;
 @end
